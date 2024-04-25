@@ -1,0 +1,25 @@
+## Interface: 11400
+## Title: EnhanceBattlefieldMinimap
+## Author: kurapica125@outlook.com
+## Version: v128
+## Notes: Enhance the Battlefield Minimap(Zone map) with several features, use /ebfm for help.
+## Dependencies: Blizzard_BattlefieldMap, Scorpio
+## OptionalDeps: Blizzard_ObjectiveTracker, Questie, ClassicCodex, TomTom
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: EnhanceBattlefieldMinimap_GlobalDB
+## SavedVariablesPerCharacter: EnhanceBattlefieldMinimap_DB
+
+BugFix.lua
+
+# Localization
+localization\zhCN.lua
+
+# Core
+EnhanceBattlefieldMinimap.lua
+
+# Plugins
+EBFM_HereBeDragons.lua
+EBFM_Questie.lua
+EBFM_PING.xml
+EBFM_TomTom.lua
